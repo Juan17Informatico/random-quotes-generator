@@ -1,0 +1,37 @@
+@import url("./mobile/main.css");
+
+:root{
+    /*Paleta de colores*/
+    --background-color-primary: #302002;
+    --border-container-primary: #755415;
+    --background-color-secundary-1: #c2c0be;
+    --background-color-secundary-2: #4d3116;
+    --font-color-primary: #301b07;
+    --font-color-secundary: #f5d7ba;
+    --white: #c9c9c9;
+    --black: #151700;
+    --font-family-p: "Roboto", sans-serif;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: flex;
+    background-color: var(--background-color-primary);
+    width: 100vw;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
