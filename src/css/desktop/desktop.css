@@ -1,17 +1,16 @@
-/* @media (min-width: 769px){
+@media (min-width: 769px){
     
     /** Father container **/
 
-    /* .container{
+    .container{
         flex-direction: row;
-        /* width: 90%; */
-        /* padding: 5px; */
-    /* }  */
+        width: 90%;
+        padding: 5px;
+    } 
     /** childs containers **/
 
-    /* .container-sn{
+    .container-sn{
         display: flex;
         width: 50%;
-        height: 100%;
-    } */
-/* }  */
+    }
+ } 

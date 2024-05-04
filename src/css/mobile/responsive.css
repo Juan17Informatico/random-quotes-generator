@@ -1,9 +1,9 @@
 @media (max-width: 768px){
 
     /* Father container */
-    /* .container{
+    .container{
         flex-direction: column;
-    } */
+    }
 
     .container-sn{
         /* Box Shadow */
@@ -18,7 +18,7 @@
         border-radius: 5px 5px 0px 0px;
         padding: 10px;
         flex-direction: column;
-        /* gap: 25px; */
+        gap: 25px;
 
         
     }
