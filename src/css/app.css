@@ -1,3 +1,4 @@
+@import url("./desktop/desktop.css"); 
 @import url("./mobile/responsive.css");
 @import url("./buttons.css");
 
@@ -41,7 +42,6 @@
     height: 100%;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
 }
 .container-sn:first-child{
     color: var(--font-color-primary); 

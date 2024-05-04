@@ -1,0 +1,9 @@
+@media (min-width: 768px){
+    
+    /** Father container **/
+
+    .container{
+        flex-direction: row;
+    }
+
+}
