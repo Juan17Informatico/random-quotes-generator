@@ -39,6 +39,9 @@
         min-height: 100%;
     }
 
+    .description-container{
+        padding: 10px;
+    }
 
 
     .sn-1 > div:first-child {
