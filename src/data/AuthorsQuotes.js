@@ -1,7 +1,8 @@
 
 
 export const AuthorsQuotes = [
-    {
+    {   
+        id: 1,
         author: "Julio Verne",
         birthdate: 1828,
         date_death: 1905,
@@ -15,6 +16,7 @@ export const AuthorsQuotes = [
         ]
     },
     {
+        id: 2,
         author: "Albert Camus",
         birthdate: 1913,
         date_death: 1960,
@@ -30,6 +32,7 @@ export const AuthorsQuotes = [
         ]   
     },
     {
+        id: 3,
         author: "Mario Mendoza",
         birthdate: 1964,
         date_death: 0,
@@ -44,6 +47,7 @@ export const AuthorsQuotes = [
         ]
     },
     {
+        id: 4,
         author: "Jorge Luis Borges",
         birthdate: 1899,
         date_death: 1986,
@@ -55,6 +59,7 @@ export const AuthorsQuotes = [
         ]
     },
     {
+        id: 5,
         author: "Julio Cortazar",
         birthdate: 1914,
         date_death: 1984,
@@ -66,6 +71,7 @@ export const AuthorsQuotes = [
         ]
     },
     {
+        id: 6,
         author: "Friedrich Nietzsche",
         birthdate: 1844,    
         date_death: 1900,
@@ -77,6 +83,7 @@ export const AuthorsQuotes = [
         ]
     },
     {
+        id: 7,
         author: "Arthur Schopenhauer",
         birthdate: 1788,
         date_death: 1860,
@@ -88,6 +95,7 @@ export const AuthorsQuotes = [
         ]
     },
     {
+        id: 8,
         author: "Immanuel Kant",
         birthdate: 1724,
         date_death: 1804,
@@ -99,6 +107,7 @@ export const AuthorsQuotes = [
         ]
     },
     {
+        id: 9,
         author: "René Descartes",
         birthdate: 1596,
         date_death: 1650,
@@ -110,6 +119,7 @@ export const AuthorsQuotes = [
         ]
     },
     {
+        id: 10,
         author: "Baruch Spinoza",
         birthdate: 1632,
         date_death: 1677,
@@ -122,6 +132,7 @@ export const AuthorsQuotes = [
     },
 
     {
+        id: 11,
         name: "Ernesto Sabato",
         birthdate: 1911,
         date_death: 2011,
@@ -133,6 +144,7 @@ export const AuthorsQuotes = [
         ]
     },
     {
+        id: 12,
         name: "Franz Kafka",
         birthdate: 1883,
         date_death: 1924,
@@ -144,6 +156,7 @@ export const AuthorsQuotes = [
         ]
     },
     {
+        id: 13,
         name: "Octavio Paz",
         birthdate: 1914,
         date_death: 1998,
@@ -155,6 +168,7 @@ export const AuthorsQuotes = [
         ]
     },
     {
+        id: 14,
         name: "Santiago Gamboa" ,
         birthdate: 1965,
         date_death:  0,
@@ -166,6 +180,7 @@ export const AuthorsQuotes = [
         ]
     },
     {
+        id: 15,
         name: "Roberto Bolaño",
         birthdate: 1953,
         date_death: 2003,
@@ -177,6 +192,7 @@ export const AuthorsQuotes = [
         ]
     },
     {
+        id: 16,
         name: "Horacio Quiroga"  ,
         birthdate: 1878,
         date_death: 1937,
@@ -188,6 +204,7 @@ export const AuthorsQuotes = [
         ]
     },
     {
+        id: 17,
         name: "Gabriel Gracia Marquez" ,
         birthdate: 1927,
         date_death: 2014,
@@ -199,6 +216,7 @@ export const AuthorsQuotes = [
         ]
     },
     {
+        id: 18,
         name: "Jorge Isaacs" ,
         birthdate: 1837,
         date_death: 1895,
@@ -210,6 +228,7 @@ export const AuthorsQuotes = [
         ]
     },
     {
+        id: 19,
         name: "Rafael Pombo" ,
         birthdate:  1883,
         date_death: 1912,
@@ -221,6 +240,7 @@ export const AuthorsQuotes = [
         ]
     },
     {
+        id: 20,
         name: "Mario Benedetti",
         birthdate: 1920,
         date_death: 2009,
