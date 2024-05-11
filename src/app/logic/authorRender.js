@@ -1,9 +1,5 @@
-import { getAuthorsById } from "../helpers/getAuthorsById";
-import { quotesRender } from "./quotesRender";
 
-
-export const authorRender = (id) => {
-    const [ author ] = getAuthorsById(id);
+export const authorRender = (author) => {
     const authorNameText = document.querySelector('.authorNameText'); 
     const authorDescription = document.querySelector('.authorDescription'); 
     const authorDate = document.querySelector('.authorDate'); 
@@ -12,8 +8,5 @@ export const authorRender = (id) => {
     authorNameText.innerText = author.author; 
     authorDate.innerText = `(${author.birthdate}-${author?.date_death})`; 
 
-    
-
-    quotesRender(author.quotes);
 
 }

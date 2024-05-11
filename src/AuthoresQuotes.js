@@ -1,7 +1,7 @@
-import { authorRender } from "./app/logic/authorRender"
-;
+import { AppQuotes } from "./app/app";
+
 export const InitApp = () => {
 
-    authorRender(15); 
+    AppQuotes(10);
 
 }
