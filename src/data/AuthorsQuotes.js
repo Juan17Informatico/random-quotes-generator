@@ -133,7 +133,7 @@ export const AuthorsQuotes = [
 
     {
         id: 11,
-        name: "Ernesto Sabato",
+        author: "Ernesto Sabato",
         birthdate: 1911,
         date_death: 2011,
         biography: "Ernesto Sabato fue un escritor, ensayista y físico argentino nacido el 24 de junio de 1911 en Rojas, Buenos Aires, Argentina, y fallecido el 30 de abril de 2011 en Santos Lugares, Buenos Aires, Argentina. Se graduó como doctor en Física en la Universidad Nacional de La Plata y realizó importantes investigaciones en este campo. Sin embargo, su pasión por la literatura lo llevó a abandonar la física para dedicarse por completo a la escritura. Algunas de sus obras más destacadas incluyen 'El túnel', 'Sobre héroes y tumbas' y 'Abaddón el exterminador'. Sabato fue también un destacado activista social y defensor de los derechos humanos en Argentina. Su legado literario y su compromiso con la justicia social lo convierten en una figura emblemática de la literatura argentina del siglo XX.",
@@ -145,7 +145,7 @@ export const AuthorsQuotes = [
     },
     {
         id: 12,
-        name: "Franz Kafka",
+        author: "Franz Kafka",
         birthdate: 1883,
         date_death: 1924,
         biography: "Franz Kafka fue un escritor de origen judío nacido el 3 de julio de 1883 en Praga, en aquel entonces parte del Imperio Austrohúngaro, y falleció el 3 de junio de 1924 en Kierling, Austria. Kafka estudió derecho en la Universidad Alemana de Praga y trabajó en una compañía de seguros para sostenerse económicamente. Sin embargo, su verdadera pasión era la escritura. Es conocido por su obra caracterizada por temas como la alienación, la burocracia y la ansiedad existencial. Algunas de sus obras más famosas incluyen 'La metamorfosis', 'El proceso' y 'El castillo'. Aunque durante su vida no alcanzó una gran fama, su obra ha sido ampliamente reconocida y estudiada tras su muerte, convirtiéndolo en una figura destacada de la literatura del siglo XX.",
@@ -157,7 +157,7 @@ export const AuthorsQuotes = [
     },
     {
         id: 13,
-        name: "Octavio Paz",
+        author: "Octavio Paz",
         birthdate: 1914,
         date_death: 1998,
         biography: "biografia Octavio Paz fue un poeta, ensayista y diplomático mexicano nacido el 31 de marzo de 1914 en Ciudad de México, México, y fallecido el 19 de abril de 1998 en la misma ciudad. Paz es considerado uno de los escritores más importantes del siglo XX en lengua española y una figura destacada de la literatura y la cultura mexicana. Estudió en la Universidad Nacional Autónoma de México y comenzó su carrera como poeta en la década de 1930. A lo largo de su vida, Paz escribió numerosos poemarios, ensayos y obras de crítica literaria que abordaban temas como la identidad, la historia, la política y la esencia del ser humano. Entre sus obras más conocidas se encuentran 'El laberinto de la soledad', 'Piedra de sol' y 'El arco y la lira'. Además de su carrera literaria, Paz también se desempeñó como diplomático, representando a México en diversos países. Su legado literario y su influencia en la cultura hispanohablante continúan siendo reconocidos hasta el día de hoy.",
@@ -169,7 +169,7 @@ export const AuthorsQuotes = [
     },
     {
         id: 14,
-        name: "Santiago Gamboa" ,
+        author: "Santiago Gamboa" ,
         birthdate: 1965,
         date_death:  0,
         biography: "Santiago Gamboa es un escritor colombiano nacido el 6 de julio de 1965 en Bogotá, Colombia. Estudió literatura en la Universidad Javeriana de Bogotá y luego se trasladó a Europa, donde vivió en varias ciudades como París, Roma y Barcelona. Durante su estancia en el extranjero, trabajó en diversos oficios, incluyendo el periodismo y la traducción, mientras continuaba con su carrera como escritor. Gamboa es conocido por su estilo narrativo audaz y su exploración de temas como la identidad, la migración, la violencia y la pasión. Algunas de sus obras más destacadas incluyen 'Perder es cuestión de método', 'El síndrome de Ulises' y 'Necropolis'. Su obra ha sido ampliamente reconocida y traducida a varios idiomas, consolidándolo como uno de los escritores contemporáneos más importantes de Colombia y América Latina.",
@@ -181,7 +181,7 @@ export const AuthorsQuotes = [
     },
     {
         id: 15,
-        name: "Roberto Bolaño",
+        author: "Roberto Bolaño",
         birthdate: 1953,
         date_death: 2003,
         biography: "Roberto Bolaño fue un escritor chileno nacido el 28 de abril de 1953 en Santiago, Chile, y fallecido el 15 de julio de 2003 en Barcelona, España. Bolaño es considerado uno de los escritores más importantes y originales de la literatura contemporánea en lengua española. Pasó parte de su infancia en Chile y luego se trasladó a México, donde vivió durante gran parte de su vida adulta. Durante su juventud, Bolaño estuvo involucrado en movimientos políticos de izquierda y pasó un tiempo en prisión por su participación en actividades políticas. Comenzó a escribir desde joven, pero no alcanzó el reconocimiento literario hasta la publicación de su novela 'Los detectives salvajes' en 1998, la cual le otorgó fama internacional. Bolaño es conocido por su estilo narrativo innovador, así como por su exploración de temas como la marginalidad, la violencia y la búsqueda de identidad. Entre sus obras más destacadas se encuentran '2666', 'Estrella distante' y 'Amuleto'. Su legado literario continúa siendo influyente en la literatura contemporánea en español.",
@@ -193,7 +193,7 @@ export const AuthorsQuotes = [
     },
     {
         id: 16,
-        name: "Horacio Quiroga"  ,
+        author: "Horacio Quiroga"  ,
         birthdate: 1878,
         date_death: 1937,
         biography: "Horacio Quiroga fue un escritor uruguayo nacido el 31 de diciembre de 1878 en Salto, Uruguay, y fallecido el 19 de febrero de 1937 en Buenos Aires, Argentina. Es considerado uno de los maestros del cuento latinoamericano y uno de los más destacados exponentes del modernismo en la literatura en español. Quiroga vivió una vida marcada por la tragedia y la melancolía. Perdió a su padre a una edad temprana y más tarde a su padrastro, eventos que tuvieron un impacto profundo en su obra literaria. Su estilo narrativo se caracteriza por su realismo crudo y su exploración de temas como la naturaleza, la locura, la muerte y la fatalidad. Algunas de sus obras más famosas incluyen 'Cuentos de la selva', 'Los desterrados' y 'Anaconda'. A lo largo de su vida, enfrentó numerosos desafíos personales, incluyendo problemas de salud mental y tragedias familiares, pero su legado literario sigue siendo ampliamente celebrado y estudiado hasta el día de hoy.",
@@ -205,7 +205,7 @@ export const AuthorsQuotes = [
     },
     {
         id: 17,
-        name: "Gabriel Gracia Marquez" ,
+        author: "Gabriel Gracia Marquez" ,
         birthdate: 1927,
         date_death: 2014,
         biography: "Gabriel García Márquez fue un escritor colombiano nacido el 6 de marzo de 1927 en Aracataca, Colombia, y fallecido el 17 de abril de 2014 en la Ciudad de México, México. Es uno de los autores más importantes y reconocidos de la literatura en lengua española del siglo XX. García Márquez estudió derecho en la Universidad Nacional de Colombia, pero abandonó sus estudios para dedicarse al periodismo y a la escritura. Fue pionero del realismo mágico, un estilo literario que combina elementos fantásticos con una narrativa realista. Su obra maestra, 'Cien años de soledad', publicada en 1967, es considerada una de las novelas más influyentes del siglo XX y le valió el premio Nobel de Literatura en 1982. Además de su trabajo como novelista, García Márquez también fue un destacado periodista y activista político. Su legado literario sigue siendo ampliamente celebrado y estudiado en todo el mundo.",
@@ -217,7 +217,7 @@ export const AuthorsQuotes = [
     },
     {
         id: 18,
-        name: "Jorge Isaacs" ,
+        author: "Jorge Isaacs" ,
         birthdate: 1837,
         date_death: 1895,
         biography: "Jorge Isaacs fue un escritor y político colombiano nacido el 1 de abril de 1837 en Cali, Colombia, y fallecido el 17 de abril de 1895 en Ibagué, Colombia. Es principalmente conocido por su obra cumbre, 'María', publicada en 1867, que es considerada una de las novelas más importantes de la literatura colombiana y latinoamericana del siglo XIX. Isaacs también fue un activo político y participó en la vida pública de su país. Además de su carrera literaria, se desempeñó como diplomático y militar. Su obra 'María' está inspirada en sus propias experiencias personales y en su amor no correspondido por una joven llamada María. La novela combina elementos románticos y realistas y destaca por su descripción de la naturaleza y por abordar temas como el amor, el honor y la tragedia. Jorge Isaacs dejó un legado literario perdurable en la literatura colombiana y su influencia continúa siendo reconocida hasta el día de hoy.",
@@ -229,7 +229,7 @@ export const AuthorsQuotes = [
     },
     {
         id: 19,
-        name: "Rafael Pombo" ,
+        author: "Rafael Pombo" ,
         birthdate:  1883,
         date_death: 1912,
         biography: "Rafael Pombo fue un escritor, poeta y diplomático colombiano nacido el 7 de noviembre de 1833 en Bogotá, Colombia, y fallecido el 5 de mayo de 1912 en la misma ciudad. Es uno de los más grandes poetas de la literatura infantil en español. Proveniente de una familia influyente, Pombo estudió en colegios reconocidos y se destacó por su talento literario desde una edad temprana. Es conocido por sus poemas infantiles, que incluyen clásicos como 'Simón el bobito', 'La pobre viejecita' y 'Rin Rin Renacuajo'. Además de su obra literaria, Pombo también se desempeñó como diplomático, representando a Colombia en varios países, incluidos Chile y Estados Unidos. Su legado literario sigue siendo celebrado en Colombia y en toda la comunidad de habla hispana como una figura destacada de la literatura infantil.",
@@ -241,7 +241,7 @@ export const AuthorsQuotes = [
     },
     {
         id: 20,
-        name: "Mario Benedetti",
+        author: "Mario Benedetti",
         birthdate: 1920,
         date_death: 2009,
         biography : "Mario Benedetti fue un escritor, poeta y periodista uruguayo nacido el 14 de septiembre de 1920 en Paso de los Toros, Uruguay, y fallecido el 17 de mayo de 2009 en Montevideo, Uruguay. Es uno de los autores más destacados de la literatura latinoamericana del siglo XX. Durante su vida, trabajó en una variedad de empleos, incluyendo el periodismo y la publicidad, mientras seguía desarrollando su carrera literaria. Es conocido por su prolífica producción literaria, que abarca poesía, cuentos, novelas, ensayos y obras de teatro. Algunas de sus obras más reconocidas incluyen 'La tregua', 'Gracias por el fuego', 'El amor, las mujeres y la vida' y 'Inventario'. Benedetti fue también un destacado activista político y defensor de los derechos humanos, especialmente durante los años de dictadura militar en Uruguay. Su obra y su compromiso social continúan siendo influyentes y son ampliamente celebrados en la literatura hispanoamericana.",

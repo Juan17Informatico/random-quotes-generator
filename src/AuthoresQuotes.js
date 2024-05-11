@@ -1,12 +1,7 @@
-import { getAuthorsById } from "./app/helpers/getAuthorsById"
-
+import { authorRender } from "./app/logic/authorRender"
+;
 export const InitApp = () => {
 
-    console.log();
-
-    for (let i = 0; i < 20; i++) {
-        console.log( (i + 1 ) + ": ");
-        console.log(getAuthorsById(i+1));
-    }
+    authorRender(15); 
 
 }
