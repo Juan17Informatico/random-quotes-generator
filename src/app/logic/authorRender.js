@@ -12,6 +12,8 @@ export const authorRender = (id) => {
     authorNameText.innerText = author.author; 
     authorDate.innerText = `(${author.birthdate}-${author?.date_death})`; 
 
-    quotesRender();
+    
+
+    quotesRender(author.quotes);
 
 }
