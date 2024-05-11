@@ -15,6 +15,6 @@
     background-color: var(--border-container-primary);
 }
 
-.btn-styles:focus{
+.btn-styles:active{
     background-color: var(--background-color-primary);
 }
