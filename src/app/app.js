@@ -3,6 +3,7 @@ import { btnFollow } from "./listeners/btnFollow";
 import { authorRender } from "./logic/authorRender";
 import { quotesContainer } from "./views/quotesContainer";
 
+const initialValue = 1; 
 
 export const AppQuotes = () => {
 
@@ -10,19 +11,19 @@ export const AppQuotes = () => {
     const btnFormerElement = document.querySelector("#btnFormer"); 
 
     
-    const nextValue = btnFollow(btnFollowElement); 
+    
     
     renderAuthorInformation();
-
-    console.log(nextValue);
-
+    
+    
+    btnFollow(btnFollowElement, initialValue);
 }
 
 
-// const renderAuthorInformation = (value = 1, nextValue, beforeValue) => {
+const renderAuthorInformation = (value = 1, nextValue, beforeValue) => {
 
-//     const [ author ] = getAuthorsById(value);
-//     quotesContainer(author.quotes);
-//     authorRender(author);
+    const [ author ] = getAuthorsById(value);
+    quotesContainer(author.quotes);
+    authorRender(author);
 
-// }
+}

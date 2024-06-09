@@ -2,11 +2,12 @@
 export const btnFollow = (btn, initialValue = 1) => {
 
     btn.addEventListener('click', () => {
+        initialValue++;
 
-        console.log(initialValue);
-        return (initialValue += 1); 
 
+        // TODO:  Eliminar los quote-desc-container
     }); 
     
 
 }
+
