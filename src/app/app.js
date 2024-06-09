@@ -1,9 +1,10 @@
 import { getAuthorsById } from "./helpers/getAuthorsById";
 import { btnFollow } from "./listeners/btnFollow";
+import { btnFormer } from "./listeners/btnFormer";
 import { authorRender } from "./logic/authorRender";
 import { quotesContainer } from "./views/quotesContainer";
 
-const initialValue = 1; 
+export let currentValue = 1; 
 
 export const AppQuotes = () => {
 
@@ -11,19 +12,19 @@ export const AppQuotes = () => {
     const btnFormerElement = document.querySelector("#btnFormer"); 
 
     
-    
-    
     renderAuthorInformation();
     
     
-    btnFollow(btnFollowElement, initialValue);
+    btnFollow(btnFollowElement);
+    btnFormer(btnFormerElement); 
 }
 
 
-const renderAuthorInformation = (value = 1, nextValue, beforeValue) => {
+export const renderAuthorInformation = (value = 1) => {
 
     const [ author ] = getAuthorsById(value);
     quotesContainer(author.quotes);
     authorRender(author);
-
+    currentValue = value;
+    return currentValue; 
 }
