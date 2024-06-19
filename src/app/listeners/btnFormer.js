@@ -1,5 +1,6 @@
 
-import { currentValue, renderAuthorInformation } from "../app";
+import { currentValueGlobal } from "../../AuthoresQuotes";
+import { renderAuthorInformation } from "../logic";
 import { deleteQuotesDiv } from "./deleteQuotesDiv";
 
 export const btnFormer = (btn) => {
@@ -7,8 +8,8 @@ export const btnFormer = (btn) => {
     btn.addEventListener('click', () => {
 
 
-        if ( currentValue <= 1) return; 
-        let newValue = currentValue;
+        if ( currentValueGlobal <= 1) return; 
+        let newValue = currentValueGlobal.value;
         newValue--;
         deleteQuotesDiv();
         renderAuthorInformation(newValue);
