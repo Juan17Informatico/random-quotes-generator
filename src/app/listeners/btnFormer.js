@@ -8,7 +8,7 @@ export const btnFormer = (btn) => {
     btn.addEventListener('click', () => {
 
 
-        if ( currentValueGlobal <= 1) return; 
+        if ( currentValueGlobal.value <= 1) return; 
         let newValue = currentValueGlobal.value;
         newValue--;
         deleteQuotesDiv();
