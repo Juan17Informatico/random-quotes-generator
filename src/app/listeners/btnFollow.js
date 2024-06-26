@@ -7,7 +7,7 @@ export const btnFollow = (btn) => {
 
     btn.addEventListener('click', () => {
 
-        if ( currentValueGlobal >= 20) return; 
+        if ( currentValueGlobal.value >= 20) return; 
         let newValue = currentValueGlobal.value; 
         newValue++;
         deleteQuotesDiv();
