@@ -1,4 +1,4 @@
-import { quotesRender } from "../logic/quotesRender";
+import { quotesRender } from "./quotesRender";
 
 
 /**

@@ -1,5 +1,5 @@
 import { currentValueGlobal } from "../../AuthoresQuotes";
-import { renderAuthorInformation } from "../logic";
+import { renderAuthorInformation } from "../views";
 import { deleteQuotesDiv } from "./deleteQuotesDiv";
 
 

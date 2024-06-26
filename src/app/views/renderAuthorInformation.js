@@ -1,7 +1,7 @@
 import { currentValueGlobal } from "../../AuthoresQuotes";
 import { getAuthorsById } from "../helpers";
-import { quotesContainer } from "../views";
-import { authorRender } from "./authorRender";
+import { authorRender, quotesContainer } from "../logic";
+
 
 export const renderAuthorInformation = (value = 1) => {
 

@@ -1,1 +1,1 @@
-export * from "./quotesContainer"; 
+export * from "./renderAuthorInformation"; 
