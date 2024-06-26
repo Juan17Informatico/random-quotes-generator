@@ -13,7 +13,6 @@ export const btnFormer = (btn) => {
         newValue--;
         deleteQuotesDiv();
         renderAuthorInformation(newValue);
-        // TODO:  Eliminar los quote-desc-container
     }); 
     
 
