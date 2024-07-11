@@ -2,7 +2,7 @@ import { quotesRender } from "./quotesRender";
 
 
 /**
- * 
+ * Función que se encarga de construir las citas del author
  * @param {Array} quotes 
  */
 export const quotesContainer = (quotes) => {
