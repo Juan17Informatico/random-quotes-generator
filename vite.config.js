@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import path from 'path'
 
 export default defineConfig({
-  base: '/', // Ajusta esto si tu aplicación se despliega en un subdirectorio
+  base: '/random-quotes-generator', // Ajusta esto si tu aplicación se despliega en un subdirectorio
   build: {
     outDir: 'dist',
     rollupOptions: {
